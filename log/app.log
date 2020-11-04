@@ -1,0 +1,705 @@
+2020-11-04 17:30:17.436 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 17:30:24.106 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 17:30:24.114 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 17:30:24.126 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 17:30:24.156 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 17:30:24.163 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 17:30:24.197 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: menu-item-54852
+2020-11-04 17:30:24.206 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: menu-item-54852
+2020-11-04 17:30:24.370 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-sidebar-content
+2020-11-04 17:30:46.130 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#hub\-sidebar\-content"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c691f82dfab863c0c47dfb7593088cbc
+*** Element info: {Using=id, value=hub-sidebar-content}
+2020-11-04 17:30:46.131 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 17:30:46.169 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 17:30:46.316 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 17:30:46.411 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 17:30:46.414 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 17:30:46.434 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 17:30:46.434 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> class name: search-box]
+2020-11-04 17:30:46.517 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> class name: search-box]
+2020-11-04 17:30:46.519 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-header
+2020-11-04 17:30:46.562 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-header
+2020-11-04 17:30:46.599 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 17:30:46.609 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 17:30:46.636 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 17:30:46.737 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 17:30:46.738 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:30:47.511 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:30:47.728 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c691f82dfab863c0c47dfb7593088cbc
+2020-11-04 17:30:49.733 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:30:49.749 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:30:49.777 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> css selector: .SearchResults-list a]
+2020-11-04 17:30:49.823 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c691f82dfab863c0c47dfb7593088cbc)] -> css selector: .SearchResults-list a]
+2020-11-04 17:31:04.707 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 17:31:04.808 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 17:31:04.879 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 17:31:05.134 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 17:31:05.136 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 17:31:05.157 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 17:31:05.159 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 17:31:05.179 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 17:40:42.476 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 17:40:49.228 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 17:40:49.234 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 17:40:49.245 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 17:40:49.276 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 17:40:49.282 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 17:40:49.384 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: menu-item-54852
+2020-11-04 17:40:49.395 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: menu-item-54852
+2020-11-04 17:40:49.406 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 17:40:49.414 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 17:42:21.292 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: @menu-item-54852 a
+2020-11-04 17:42:22.307 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21c1b6b6b02ce4858aefad328346624d
+*** Element info: {Using=css selector, value=@menu-item-54852 a}
+2020-11-04 17:42:31.831 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 17:42:31.854 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 17:43:22.068 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 17:43:22.100 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 17:44:18.104 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21c1b6b6b02ce4858aefad328346624d
+2020-11-04 17:44:28.946 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21c1b6b6b02ce4858aefad328346624d
+2020-11-04 17:45:28.418 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 17:45:28.457 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 17:45:28.600 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 17:45:28.690 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 17:45:28.693 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 17:45:28.718 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 17:45:28.719 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> class name: search-box]
+2020-11-04 17:45:28.796 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> class name: search-box]
+2020-11-04 17:45:28.798 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-header
+2020-11-04 17:45:29.218 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-header
+2020-11-04 17:45:29.263 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 17:45:29.273 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 17:45:29.301 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 17:45:29.379 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 17:45:29.380 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:45:31.599 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:45:31.611 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:53054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21c1b6b6b02ce4858aefad328346624d
+2020-11-04 17:45:33.617 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:45:33.635 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 17:45:33.667 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> css selector: .SearchResults-list a]
+2020-11-04 17:45:33.738 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> css selector: .SearchResults-list a]
+2020-11-04 17:45:41.805 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 17:45:41.903 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 17:45:41.966 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 17:45:42.226 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 17:45:42.232 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 17:45:42.252 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 17:45:42.254 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 17:45:42.283 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 17:45:47.069 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> link text: Task]
+2020-11-04 17:45:47.155 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (21c1b6b6b02ce4858aefad328346624d)] -> link text: Task]
+2020-11-04 17:45:47.165 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 17:45:47.305 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 17:46:57.489 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table
+2020-11-04 17:46:57.528 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table
+2020-11-04 17:46:57.530 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.tagName: td
+2020-11-04 17:46:57.571 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.tagName: td
+2020-11-04 17:46:57.617 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 17:46:57.860 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 17:49:49.473 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.tagName: td
+2020-11-04 17:49:49.519 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.tagName: td
+2020-11-04 18:03:26.392 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:03:33.055 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:03:33.060 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:03:33.071 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:03:33.099 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:03:33.105 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:03:33.143 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:03:33.152 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:03:39.526 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:03:39.563 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:03:39.697 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:03:39.771 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:03:39.774 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:03:39.796 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:03:39.796 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> class name: search-box]
+2020-11-04 18:03:39.875 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> class name: search-box]
+2020-11-04 18:03:39.876 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-header
+2020-11-04 18:03:39.933 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-header
+2020-11-04 18:03:39.962 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:03:39.972 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:03:39.993 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:03:40.089 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:03:40.090 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:03:40.923 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:03:40.953 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> css selector: .SearchResults-list a]
+2020-11-04 18:03:41.002 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (c85747c2c2a4527b70ba3d05f36fa874)] -> css selector: .SearchResults-list a]
+2020-11-04 18:03:41.004 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:03:42.659 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:03:42.693 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:58708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c85747c2c2a4527b70ba3d05f36fa874
+2020-11-04 18:06:34.556 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:06:43.568 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:06:43.574 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:06:43.583 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:06:43.614 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:06:43.621 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:06:43.662 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:06:43.671 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:06:46.919 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:06:46.959 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:06:47.093 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:06:47.168 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:06:47.170 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:06:47.193 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:06:47.193 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> class name: search-box]
+2020-11-04 18:06:47.287 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> class name: search-box]
+2020-11-04 18:06:47.289 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-header
+2020-11-04 18:06:47.744 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-header
+2020-11-04 18:06:47.795 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:06:47.808 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:06:47.825 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:06:47.899 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:06:47.900 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:06:48.247 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:06:48.401 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> css selector: .SearchResults-list a]
+2020-11-04 18:06:48.474 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d420b86759c1b570eac941486cf0752e)] -> css selector: .SearchResults-list a]
+2020-11-04 18:06:48.476 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:06:48.511 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:20:06.718 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:20:13.546 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:20:13.551 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:20:13.562 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:20:13.589 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:20:13.596 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:20:13.636 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:20:13.645 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:20:17.085 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:20:17.095 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:20:17.119 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:20:17.156 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:20:17.292 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:20:17.370 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:20:17.372 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:20:17.396 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:20:17.397 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> class name: search-box]
+2020-11-04 18:20:17.504 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> class name: search-box]
+2020-11-04 18:20:17.505 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-header
+2020-11-04 18:20:17.553 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-header
+2020-11-04 18:20:17.582 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:20:17.592 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:20:17.617 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:20:17.691 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:20:17.692 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:20:21.795 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:20:21.820 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> css selector: .SearchResults-list a]
+2020-11-04 18:20:21.875 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5aab29b3519ab1e16502a1d3d31531f9)] -> css selector: .SearchResults-list a]
+2020-11-04 18:20:21.877 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:20:21.925 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:21:42.941 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:21:49.724 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:21:49.730 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:21:49.740 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:21:49.769 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:21:49.777 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:21:49.819 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:21:49.829 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:21:52.665 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:21:52.675 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:21:52.702 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:21:52.737 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:21:52.871 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:21:52.954 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:21:52.956 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:21:52.979 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:21:52.979 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> class name: search-box]
+2020-11-04 18:21:53.158 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> class name: search-box]
+2020-11-04 18:21:53.159 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:21:53.518 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:21:53.555 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:21:53.562 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:21:53.579 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:21:53.667 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:21:53.668 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:21:54.016 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:21:54.191 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (d349203658ca569b51deecb27b7c4438)] -> css selector: .SearchResults-list a]
+2020-11-04 18:21:54.230 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:63393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d349203658ca569b51deecb27b7c4438
+2020-11-04 18:25:14.557 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:25:23.067 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:25:23.072 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:25:23.083 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:25:23.114 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:25:23.121 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:25:23.161 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:25:23.170 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:25:26.087 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:25:26.096 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:25:26.123 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:25:26.157 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:25:26.292 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:25:26.364 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:25:26.366 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:25:26.391 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:25:26.391 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> class name: search-box]
+2020-11-04 18:25:26.501 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> class name: search-box]
+2020-11-04 18:25:26.502 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:25:26.944 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:25:26.992 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:25:26.999 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:25:27.012 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:25:27.087 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:25:27.088 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:25:27.448 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:25:27.449 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> css selector: .SearchResults-list a]
+2020-11-04 18:25:27.511 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (fed3ba8550d53095213c4b26a1dc836e)] -> css selector: .SearchResults-list a]
+2020-11-04 18:25:27.513 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:25:27.566 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:29:21.486 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:29:28.181 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:29:28.187 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:29:28.197 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:29:28.229 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:29:28.237 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:29:28.280 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:29:28.288 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:29:31.088 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:29:31.101 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:29:33.133 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:29:33.178 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:29:33.307 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:29:33.379 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:29:33.381 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:29:33.405 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:29:33.406 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> class name: search-box]
+2020-11-04 18:29:33.479 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> class name: search-box]
+2020-11-04 18:29:33.480 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:29:33.921 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:29:33.962 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:29:33.971 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:29:33.987 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:29:34.065 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:29:36.068 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:29:36.084 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:29:36.085 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> css selector: .SearchResults-list a]
+2020-11-04 18:29:36.179 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (2bdb88fbf2b0e86f490aaf44e5e75e2d)] -> css selector: .SearchResults-list a]
+2020-11-04 18:29:36.181 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:29:36.194 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:33:53.200 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:34:01.494 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:34:01.499 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:34:01.509 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:34:01.541 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:34:01.548 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:34:01.589 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:34:01.598 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:34:04.011 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:34:04.021 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:34:06.050 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:34:06.095 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:34:06.224 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:34:06.296 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:34:06.298 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:34:06.319 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:34:06.320 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> class name: search-box]
+2020-11-04 18:34:06.392 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> class name: search-box]
+2020-11-04 18:34:06.393 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:34:06.829 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:34:06.864 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:34:06.878 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:34:06.896 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:34:07.011 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:34:09.013 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:34:09.027 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:34:09.027 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> css selector: .SearchResults-list a]
+2020-11-04 18:34:09.106 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (441dfb31d37cba899da3bf0be7f545aa)] -> css selector: .SearchResults-list a]
+2020-11-04 18:34:09.108 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:34:09.147 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:34:11.195 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:50907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 441dfb31d37cba899da3bf0be7f545aa
+2020-11-04 18:34:13.213 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:50907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 441dfb31d37cba899da3bf0be7f545aa
+2020-11-04 18:34:15.235 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:50907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 441dfb31d37cba899da3bf0be7f545aa
+2020-11-04 18:35:19.825 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:35:26.221 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:35:26.227 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:35:26.238 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:35:26.269 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:35:26.275 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:35:26.317 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:35:26.326 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:35:29.871 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:35:29.884 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:35:31.919 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:35:31.951 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:35:32.082 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:35:32.163 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:35:32.165 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:35:32.174 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:35:32.174 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> class name: search-box]
+2020-11-04 18:35:32.268 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> class name: search-box]
+2020-11-04 18:35:32.269 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:35:32.319 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:35:32.352 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:35:32.359 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:35:32.376 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:35:32.468 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:35:34.471 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:35:34.489 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:35:34.489 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> css selector: .SearchResults-list a]
+2020-11-04 18:35:34.538 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (709b11941717cae1739cfea4f651a453)] -> css selector: .SearchResults-list a]
+2020-11-04 18:35:34.539 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:35:34.588 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:35:36.633 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 709b11941717cae1739cfea4f651a453
+2020-11-04 18:35:38.652 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 709b11941717cae1739cfea4f651a453
+2020-11-04 18:35:40.665 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 709b11941717cae1739cfea4f651a453
+2020-11-04 18:37:13.656 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:37:20.426 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:37:20.432 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:37:20.443 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:37:20.475 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:37:20.481 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:37:20.607 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:37:20.619 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:37:20.633 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:37:20.641 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:37:24.898 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:37:24.913 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:37:29.716 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:37:29.726 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:37:31.776 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:37:31.827 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:37:31.956 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:37:32.055 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:37:32.058 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:37:32.072 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:37:32.072 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> class name: search-box]
+2020-11-04 18:37:32.157 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> class name: search-box]
+2020-11-04 18:37:32.158 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:37:32.582 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:37:32.614 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:37:32.625 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:37:32.642 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:37:32.720 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:37:34.727 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:37:34.744 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:37:34.744 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> css selector: .SearchResults-list a]
+2020-11-04 18:37:34.799 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (5db220502819581703f81d47be558f00)] -> css selector: .SearchResults-list a]
+2020-11-04 18:37:34.860 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:37:34.874 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:37:34.881 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 18:37:36.332 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 18:37:36.333 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 18:37:36.341 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider
+2020-11-04 18:37:44.600 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:37:46.616 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:37:48.633 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:38:01.908 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:38:03.917 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:38:05.931 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:38:07.948 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:38:33.803 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:33.816 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:35.828 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:35.841 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:37.852 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:37.865 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:39.879 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:39.894 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:56.118 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:56.126 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:57.490 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:38:57.498 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:39:31.973 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:51995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5db220502819581703f81d47be558f00
+2020-11-04 18:39:40.825 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:39:49.801 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:39:49.807 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:39:49.817 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:39:49.850 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:39:49.856 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:39:49.898 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:39:49.906 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:39:52.725 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:39:52.736 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:39:54.763 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:39:54.812 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:39:54.937 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:39:55.008 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:39:55.010 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:39:55.035 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:39:55.036 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> class name: search-box]
+2020-11-04 18:39:55.198 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> class name: search-box]
+2020-11-04 18:39:55.199 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:39:55.561 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:39:55.595 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:39:55.605 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:39:55.621 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:39:55.698 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:39:57.701 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:39:57.718 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:39:57.719 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> css selector: .SearchResults-list a]
+2020-11-04 18:39:57.786 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (df3355c6e297d93ab57ae72305a9f012)] -> css selector: .SearchResults-list a]
+2020-11-04 18:39:57.788 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:39:57.823 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:39:59.866 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:52676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df3355c6e297d93ab57ae72305a9f012
+2020-11-04 18:40:01.885 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:52676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df3355c6e297d93ab57ae72305a9f012
+2020-11-04 18:40:03.909 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] - Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naels-MacBook-Pro.local', ip: '2a02:ed0:5375:5c00:3dfb:910e:2689:cf21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/pm/p3td2hqn3zd...}, goog:chromeOptions: {debuggerAddress: localhost:52676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df3355c6e297d93ab57ae72305a9f012
+2020-11-04 18:40:45.579 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:40:52.436 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:40:52.442 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:40:52.452 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:40:52.485 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:40:52.493 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:40:52.533 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:40:52.542 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:40:55.502 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:40:55.511 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:40:57.542 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:40:57.591 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:40:57.720 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:40:57.819 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:40:57.822 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:40:57.834 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:40:57.835 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> class name: search-box]
+2020-11-04 18:40:57.993 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> class name: search-box]
+2020-11-04 18:40:57.994 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:40:58.346 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:40:58.383 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:40:58.390 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:40:58.404 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:40:58.482 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:41:00.485 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:41:00.505 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:41:00.505 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> css selector: .SearchResults-list a]
+2020-11-04 18:41:00.559 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> css selector: .SearchResults-list a]
+2020-11-04 18:41:00.561 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:00.612 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:02.624 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:02.639 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:02.653 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:02.661 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:02.673 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:41:02.686 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:41:02.726 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 18:41:02.953 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 18:41:02.954 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> link text: Task]
+2020-11-04 18:41:03.016 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (e885c8ce9c8f40bcfbd1fc04cdc5031c)] -> link text: Task]
+2020-11-04 18:41:03.021 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:03.154 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:05.167 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:05.182 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:05.195 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:05.203 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:41:05.216 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table
+2020-11-04 18:41:05.227 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table
+2020-11-04 18:41:05.228 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.tagName: td
+2020-11-04 18:41:05.238 INFO [main] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.tagName: td
+2020-11-04 18:54:15.614 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Before navigating to: https://www.bringg.com/
+2020-11-04 18:54:24.341 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Navigated to: https://www.bringg.com/
+2020-11-04 18:54:24.347 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:54:24.358 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:54:24.388 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: page-template
+2020-11-04 18:54:24.396 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: page-template
+2020-11-04 18:54:24.442 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:54:24.453 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #menu-item-54852 a
+2020-11-04 18:54:27.827 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.id: hub-container
+2020-11-04 18:54:27.838 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.id: hub-container
+2020-11-04 18:54:29.871 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:54:29.914 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #hub-sidebar-content ul li div
+2020-11-04 18:54:30.048 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:54:30.118 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> css selector: #hub-sidebar-content ul li div]
+2020-11-04 18:54:30.121 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: search-box
+2020-11-04 18:54:30.148 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: search-box
+2020-11-04 18:54:30.149 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> class name: search-box]
+2020-11-04 18:54:30.236 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> class name: search-box]
+2020-11-04 18:54:30.237 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:54:30.261 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:54:30.301 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:54:30.308 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.className: qdabY-SearchBox-Input
+2020-11-04 18:54:30.326 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Value of the element:[[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> class name: qdabY-SearchBox-Input] need to change to tasksManager
+2020-11-04 18:54:30.407 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Element [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> class name: qdabY-SearchBox-Input] value changed to: tasksManager
+2020-11-04 18:54:32.409 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:54:32.427 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .SearchResults-list a
+2020-11-04 18:54:32.428 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> css selector: .SearchResults-list a]
+2020-11-04 18:54:32.476 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> css selector: .SearchResults-list a]
+2020-11-04 18:54:32.479 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:32.529 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:34.547 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:34.560 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:34.572 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:34.580 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:34.592 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:54:34.604 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table_col_1_wider tr td
+2020-11-04 18:54:34.646 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.linkText: Task
+2020-11-04 18:54:34.878 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.linkText: Task
+2020-11-04 18:54:34.878 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to click on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> link text: Task]
+2020-11-04 18:54:35.090 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Clicked on: [[ChromeDriver: chrome on MAC (4a339847d28336264483da10067ae40b)] -> link text: Task]
+2020-11-04 18:54:35.096 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:35.355 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:35.365 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:35.372 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: #content-head h1
+2020-11-04 18:54:35.384 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.cssSelector: .param_table
+2020-11-04 18:54:35.393 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.cssSelector: .param_table
+2020-11-04 18:54:35.393 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Trying to find Element By : By.tagName: td
+2020-11-04 18:54:35.405 INFO [TestNG-test=Test-1] [com.Log] [info] [com.Log.info(Log.java:23)] -  Found Element By : By.tagName: td
