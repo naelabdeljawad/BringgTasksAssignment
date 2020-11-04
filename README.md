@@ -40,4 +40,4 @@
 |Chrome          |MAC             |
 
 # Video
-[![IMAGE](http://img.youtube.com/vi/idFOIuyOaLY/0.jpg)](https://www.youtube.com/embed/idFOIuyOaLY)
+[![IMAGE](http://img.youtube.com/vi/45X-yHiMe9c/0.jpg)](https://youtu.be/45X-yHiMe9c)
